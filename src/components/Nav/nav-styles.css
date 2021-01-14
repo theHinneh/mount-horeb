@@ -51,13 +51,43 @@
 .nav-social-links{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 90px;
-    margin:0 30px;
-    width: auto;
+    padding:0 5px;
+    width: 150px;
+    /* border: 1px solid purple; */
 }
 .nav-social-link{
-    padding: 0 5px;
+    margin:0px 2px;
+    border: 1px solid transparent;
+    padding: 0px 6px;
     text-decoration: none;
     color: #808080;
-    background: transparent;
+}
+.icon{
+    margin-top: 6px;
+}
+.nav-social-link:nth-of-type(1):hover{
+    transition: background .4s ease;
+    background: #46D4FE;
+    color: #fff;
+    border-radius: 50%;
+}
+.nav-social-link:nth-of-type(2):hover{
+    transition: background .4s ease-in;
+    border-radius: 50%;
+    background: #A67658;
+    color: #fff;
+}
+.nav-social-link:nth-of-type(3):hover{
+    border-radius: 50%;
+    transition: background .4s ease-in;
+    color: #fff;
+    background: #37589B;
+}
+.nav-social-link:nth-of-type(4):hover{
+    border-radius: 50%;
+    transition: background .4s ease-in;
+    color: #fff;
+    background: #A72B1D;
 }

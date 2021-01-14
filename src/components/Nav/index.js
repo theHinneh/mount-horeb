@@ -32,16 +32,16 @@ const Nav = () => {
         {/* Social */}
         <div className="nav-social-links">
           <a className="nav-social-link" href="#">
-            <FaTwitter />
+            <FaTwitter className="icon" />
           </a>
           <a className="nav-social-link" href="#">
-            <FaInstagram />
+            <FaInstagram className="icon" />
           </a>
           <a className="nav-social-link" href="#">
-            <FaFacebookF />
+            <FaFacebookF className="icon" />
           </a>
           <a className="nav-social-link" href="#">
-            <FaYoutube />
+            <FaYoutube className="icon" />
           </a>
         </div>
       </div>

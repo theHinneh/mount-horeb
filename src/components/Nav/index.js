@@ -14,7 +14,7 @@ const Nav = () => {
             Home
           </a>
           <a className="nav-link" href="#">
-            Link
+            Visit
           </a>
           <a className="nav-link" href="#">
             About Us

@@ -1,16 +1,17 @@
 .header-container {
-  height: 50%;
+  /* height: 50%; */
+  width: 100%;
   /* padding: 60px auto; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .header-bg {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  width: 100%; 
+  width: 100vw; 
   background-position: top left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -81,7 +82,7 @@
 .latest-sermon-container {
   width: 100%;
   height: 180px;
-  margin-top:-63px;
+  margin-top:-28px;
   /* background: url(/assets/img/floral-dark.png),#5f6cfa; */
   background: #5f6cfa;
   display: flex;

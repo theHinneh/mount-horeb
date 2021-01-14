@@ -1,7 +1,7 @@
 .events-container{
-    min-height: 100vh;
-    padding: 130px 40px;
-    margin: 0px 20px;
+    min-height: 80vh;
+    padding: 60px 30px;
+    margin: 0px 10px;
     display: flex;
     flex-direction: column;
     text-align:center;
@@ -22,27 +22,29 @@
 .interimImage{
     margin-top: -26px;
     margin-right:25px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .events-grid{
     padding-top: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .card-container img{
     border-radius: 3px;
-    margin:0 15px;
     background-position: center;
     background-size: cover;
     width: 100%;
 }
+
 .card-container{
+    margin:0 35px;
     display: flex;
     flex-direction: column;
     width: 355px;
+    height: 500px;
     overflow: hidden;
+    line-height: 1.5;
     /* border: 1px solid black; */
     text-align:left;
 }
@@ -63,7 +65,10 @@
 }
 .card-date{
     font-family: 'Open Sans';
-    padding: 0 0 10px;
+    padding: 0 0 15px;
+    font-size: .84rem;
+    letter-spacing: .1px;
+    /* vertical-align: baseline; */
     
 }
 

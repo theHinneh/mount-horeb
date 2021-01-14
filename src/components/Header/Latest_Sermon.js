@@ -3,7 +3,19 @@ import { FaBell } from "react-icons/fa";
 
 const Latest_Sermon = () => {
   return (
-    <div className="latest-sermon-container">
+    <div
+      style={{
+        backgroundImage: `url("assets/img/floral-dark.png")`
+      }}
+      className="sermon-bg"
+      className="latest-sermon-container"
+    >
+      {/* <img
+        style={{
+          backgroundImage: `url("assets/img/cross-on-bible-green.jpg")`,
+        }}
+        className="sermon-bg"
+      /> */}
       <div className="sermon-description">
         <p>
           Visit us this Sunday 9:30am to hear an inspirational word, be uplifted
@@ -14,7 +26,7 @@ const Latest_Sermon = () => {
       <button className="sermon-button">
         Latest Sermons{" "}
         <span>
-          <FaBell className='bell' />
+          <FaBell className="bell" />
         </span>
       </button>
     </div>

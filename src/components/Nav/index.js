@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <div className="nav-container">
       {/* Logo */}
-      <img width="89px" height="89px" src="assets/img/logo_mount.png" alt="" />
+      <img className='logo' width="80px" height="80px" src="assets/img/logo_mount.png" alt="" />
       {/* Links */}
       <div className="left">
         <div className="nav-links">

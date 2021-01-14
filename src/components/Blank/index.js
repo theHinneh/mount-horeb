@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './blank_styles.css';
 
 const Blank = () => {
     return (
-        <div>
-            Welcome to Blank
-        </div>
+        <div className="blank-div" ></div>
     )
 }
 

@@ -1,0 +1,77 @@
+.events-container{
+    min-height: 100vh;
+    padding: 130px 40px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    background: #f9f9f9;
+}
+
+.events-heading{
+    text-transform:uppercase;
+    font-family: 'Montserrat';
+    line-height: 1.1;
+    color: #222;
+    font-weight: 560;
+    font-size: 2.2rem;
+    padding: 0 0 10px;
+}
+
+
+.interimImage{
+    margin-top: -26px;
+    margin-right:25px;
+    padding: 20px;
+}
+
+.events-grid{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-container img{
+    border-radius: 3px;
+    margin:0 15px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    text-align:left;
+}
+.card-header a{
+    color: rgb(10, 10, 10);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+.card-header{
+    margin-top: 5px;
+}
+
+.card-date,
+.card-text{
+    color: #9c9c9c;
+}
+.card-date{
+    font-family: 'Open Sans';
+    padding: 0 0 10px;
+    
+}
+
+.card-text{
+    font-family: 'Open Sans',sans-serif;
+    text-align: left;
+    /* margin: 14px 0;
+    font-size: 20px; */
+    line-height: 1.5;
+    color: #9c9c9c;
+}

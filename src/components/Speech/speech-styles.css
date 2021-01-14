@@ -1,0 +1,30 @@
+.paragraph-text{
+    font-family: 'Open Sans',sans-serif;
+    text-align: justify;
+    margin: 14px 0;
+    font-size: 20px;
+    line-height: 1.65em;
+    color: #9c9c9c;
+}
+
+.paragrapghs{
+}
+h1{
+    text-transform:uppercase;
+    font-family: 'Montserrat';
+    line-height: 1.1;
+    color: #222;
+    font-weight: 540;
+    margin-top:25px;
+    font-size: 1.90rem;
+}
+.speech-container{
+    padding: 130px 50px;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+}
+.interimImage{
+    margin-top: -10px;
+    margin-right:20px;
+}

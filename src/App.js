@@ -6,11 +6,11 @@ function App() {
     <div className="App">
       <Nav />
       <Header />
-      <Blank />
-      <Footer />
       <Speech />
+      <Blank />
       <UpcomingEvents />
       <WhatNext />
+      <Footer />
     </div>
   );
 }

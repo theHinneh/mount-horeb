@@ -16,16 +16,16 @@ const Footer = () => {
         &copy; Copyright MOUNT HOREB VICTORIOUS CHURCH LONDON BRANCH
         <div className="footer-icons">
         <a className="footer-social-link" href="#">
-            <FaTwitter color="#ecf2e1"  />
+            <FaTwitter className="icon-footer"  color="#ecf2e1"  />
           </a>
           <a className="footer-social-link" href="#">
-            <FaInstagram color="#ecf2e1"  />
+            <FaInstagram className="icon-footer"  color="#ecf2e1"  />
           </a>
           <a className="footer-social-link" href="#">
-            <FaFacebookF color="#ecf2e1"  />
+            <FaFacebookF className="icon-footer"  color="#ecf2e1"  />
           </a>
           <a className="footer-social-link" href="#">
-            <FaYoutube color="#ecf2e1" />
+            <FaYoutube className="icon-footer"  color="#ecf2e1" />
           </a>
         </div>
         </div>

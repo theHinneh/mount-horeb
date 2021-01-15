@@ -10,10 +10,10 @@ function App() {
         <Nav />
         <Route path="/" exact component={Home} />
         <Route path="/visit" component={Visit} />
-        <Route path="/about-us" exact component={AboutUs} />
-        <Route path="/donation" exact component={Donation} />
-        <Route path="/food-bank" exact component={FoodBank} />
-        <Route path="/event" exact component={Event} />
+        <Route path="/about-us" component={AboutUs} />
+        <Route path="/donation" component={Donation} />
+        <Route path="/food-bank" component={FoodBank} />
+        <Route path="/event" component={Event} />
         <Footer />
       </div>
     </Switch>

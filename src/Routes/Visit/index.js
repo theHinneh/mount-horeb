@@ -1,7 +1,12 @@
 import React from "react";
+import { VisitUs } from "../../components";
 
 const Visit = () => {
-  return <div></div>;
+  return (
+    <>
+      <VisitUs />
+    </>
+  );
 };
 
 export default Visit;

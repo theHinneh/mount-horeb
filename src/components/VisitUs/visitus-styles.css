@@ -1,0 +1,86 @@
+
+header {
+  position: relative;
+  min-height: 350px;
+  color: #fff;
+  background-color: #999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: right center ;
+  background-attachment: scroll;
+  font-family: 'Open Sans';
+}
+header > * {
+  z-index: 10;
+}
+header::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .35);
+}
+
+.text-container{
+    margin-top: -90px;
+}
+.visitus-heading{
+    font-size: 3.2rem;
+    font-weight: 450;
+}
+.visitus-subtext p{
+    font-size: 1.5rem;
+}
+
+.visit-us-form{
+    width: 100%;
+    min-height: 100vh;
+    border: 1px solid orangered;
+    background: #F9F9F9;
+    /* margin: 0px 20px 0px 20px; */
+    padding: 0px 50px;
+}
+.card-form{
+    padding:40px;
+    background: #fff;
+    border: 1px solid springgreen;
+    color: #000;
+}
+.form-1{
+    text-align: left;
+}
+.form-1 h3{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    color: #222;
+}
+.form-1 > p{
+    font-family: 'Open Sans';
+    margin: 15px 0px;
+    color: #9c9c9c;
+    font-size: 1.2rem;
+}
+.form-1 > p .head{
+    color: #5f6cfa;
+    font-weight: 500;
+}
+.embedded-map{
+    margin: 13px 0px;
+}
+.line-break{
+    width: 100px;
+    color: #000;
+    height: 20px;
+}
+.contact-form{
+    text-align: left;
+}
+.contact-form h3{
+    margin: 0px 0px 8px;
+}

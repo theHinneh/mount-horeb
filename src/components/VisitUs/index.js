@@ -48,20 +48,20 @@ const VisitUs = () => {
             <h3>Send us mail</h3>
             <form>
               <div className="name">
-                <label>Name</label>
+                <label>Name <span>*</span></label>
                 <input type="text" />
               </div>
               <div className="email">
-                <label>Email</label>
+                <label>E-mail <span>*</span></label>
                 <input type="email" />
               </div>
               <div className="subject">
-                <label>Subject</label>
+                <label>Subject <span>*</span></label>
                 <input type="text" />
               </div>
               <div className="message">
-                <label>Message</label>
-                <input type="text" />
+                <label>Message <span>*</span></label>
+                <textarea name="" id="" cols="139" rows="12"></textarea>
               </div>
               <button type="submit">Submit</button>
             </form>

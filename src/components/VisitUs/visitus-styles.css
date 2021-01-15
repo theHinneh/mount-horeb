@@ -42,8 +42,7 @@ header::after {
     min-height: 100vh;
     border: 1px solid orangered;
     background: #F9F9F9;
-    /* margin: 0px 20px 0px 20px; */
-    padding: 0px 50px;
+    padding: 0px 70px;
 }
 .card-form{
     padding:40px;
@@ -66,7 +65,8 @@ header::after {
     color: #9c9c9c;
     font-size: 1.2rem;
 }
-.form-1 > p .head{
+.form-1 > p .head,
+label span{
     color: #5f6cfa;
     font-weight: 500;
 }
@@ -80,7 +80,40 @@ header::after {
 }
 .contact-form{
     text-align: left;
+    padding-bottom: 50px;
 }
 .contact-form h3{
     margin: 0px 0px 8px;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.contact-form label{
+    display: block;
+    font-family: 'Open Sans';
+    color: #9c9c9c;
+    margin: 0px 0px 7px;
+    font-weight: 600;
+    font-size: .9rem;
+}
+form input{
+    width: 100%;
+    background: #fff;
+    padding: 13px;
+    border: 1px solid #e1e1e1;
+    color: #919191;
+}
+form input:focus{
+    outline: 0;
+}
+.name,
+.email,
+.subject,
+.message{
+    margin: 14px 0px;
+}
+.message textarea{
+    margin: 14px 0px;
+    border: 1px solid #e1e1e1;
 }

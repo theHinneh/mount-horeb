@@ -1,8 +1,8 @@
-import React,{useEffect} from "react";
-import "./visitus-styles.css";
+import React from 'react';
+import './aboutus-styles.css';
 import Separator from "../../shared/separator";
 
-const VisitUs = () => {
+const AboutUsComponent = () => {
 
   return (
     <div className="visit-us-container">
@@ -12,24 +12,22 @@ const VisitUs = () => {
         }}
       >
         <div className="text-container">
-          <h3 class="visitus-heading">Visit Us </h3>
+          <h3 class="visitus-heading">Our History</h3>
           <div class="visitus-subtext">
-            <p>Mount Horeb Victorious Church International – London Branch</p>
+            <p>An incredible journey from a remote village to Great success through the Grace and Power of Jesus Christ</p>
           </div>
           <div className="sep-space">
-            <Separator type={"sep1"} />
+            <Separator type={"sep2"} />
           </div>
         </div>
       </header>
 
       <div className="visit-us-form">
         <div className="card-form">
-          <div className="form-1">
-            <h3>How to get to us</h3>
+          <div className="about-us-1">
+            <h3>How it all began</h3>
             <p>
-              <strong className="head">Buses</strong> <br /> 321 from New cross,
-              321 from Lewisham, 126 from Bromley, 124 from Catford, 160 from
-              Sidcup, 286 from Greenwich
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque <span style={{color:"#5f6cfa",fontWeight:"600"}} >penatibus</span> et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             </p>
             <p>
               <strong className="head">Train</strong> <br /> Eltham train
@@ -85,4 +83,4 @@ const VisitUs = () => {
   );
 };
 
-export default VisitUs;
+export default AboutUsComponent;

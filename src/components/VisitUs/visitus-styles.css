@@ -146,3 +146,37 @@ form button{
     border-radius: 1.5px;
     font-size: 13px;
 }
+
+/* Custom separator line */
+
+  
+#sep1 {
+    overflow: hidden;
+    text-align: center;
+    color:#fff;
+    font-size: 1.3rem;
+    z-index:20;
+  }
+  
+  #sep1:before,
+  #sep1:after {
+    background-color: rgba(255, 255, 255, 0.726);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+  }
+  
+  #sep1:before {
+    right: 0.5em;
+    margin-left: -50%;
+    margin-bottom:-9px;
+  }
+  
+  #sep1:after {
+    left: 0.5em;
+    margin-right: -50%;
+    margin-bottom:-9px;
+  }

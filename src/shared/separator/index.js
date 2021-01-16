@@ -1,10 +1,10 @@
 import React from "react";
 import "./separator.css";
 
-const Separator = () => {
+const Separator = ({type}) => {
   return (
     <div className="container">
-      <h1 id="sep">...</h1>
+      <h1 id={type}>...</h1>
     </div>
   );
 };

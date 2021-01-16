@@ -1,11 +1,11 @@
-import React from 'react'
+import React,{useEffect} from "react";
+import { AboutUsComponent } from "../../components";
 
 const AboutUs = () => {
-    return (
-        <div>
-            
-        </div>
-    )
+    useEffect(() => {
+      document.title = "Our Story - Mount Horeb Church";
+    });
+    return <AboutUsComponent />;
 }
 
 export default AboutUs

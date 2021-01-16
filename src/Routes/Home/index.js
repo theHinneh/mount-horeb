@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import {
     Header,
     Blank,
@@ -8,6 +8,9 @@ import {
   } from "../../components/index";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Home - Mount Horeb Church";
+  });
   return (
     <>
       <Header />

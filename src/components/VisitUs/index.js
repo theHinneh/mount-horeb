@@ -1,7 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./visitus-styles.css";
 
 const VisitUs = () => {
+
+
+
   return (
     <div className="visit-us-container">
       <header

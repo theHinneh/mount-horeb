@@ -18,7 +18,7 @@ header {
   }
   
   .text-container{
-      max-width: 85%;
+      max-width: 90%;
       margin-top: -50px;
   }
   
@@ -34,10 +34,10 @@ header {
   
   .visit-us-form{
       width: 100%;
-      min-height: 100vh;
+      min-height: 50vh;
       border: 1px solid transparent;
       background: #F9F9F9;
-      padding: 0px 70px;
+      padding: 0px 50px;
       z-index: 5;
       position: relative;
   }
@@ -49,7 +49,7 @@ header {
       color: #000;
       margin-top: -45px;
       margin-bottom: 50px;
-      min-height: 100vh;
+      min-height: 50vh;
       z-index: 90;
   }
   .about-us-1{
@@ -75,78 +75,61 @@ header {
       font-weight: 550;
       font-size: 1.1rem;
   }
-  .embedded-map{
-      margin: 13px 0px;
-  }
-  .line-break{
-      width: 100px;
-      color: #000;
-      height: 20px;
-  }
-  .contact-form{
-      text-align: left;
-      padding-bottom: 50px;
-  }
-  .contact-form h3{
-      margin: 0px 0px 8px;
-      font-size: 21px;
-      font-weight: 500;
-      font-family: inherit;
-  }
-  
-  .contact-form label{
-      display: block;
-      font-family: 'Open Sans';
-      color: #9c9c9c;
-      margin: 0px 0px 7px;
-      font-weight: 600;
-      font-size: .9rem;
-  }
-  form input{
-      width: 100%;
-      background: #fff;
-      padding: 13px;
-      border: 1px solid #e1e1e1;
-      color: #919191;
-      border-radius: 2px;
-  }
-  form input:focus,
-  form textarea:focus{
-      outline: 0;
-  }
-  .name,
-  .email,
-  .subject,
-  .message{
-      margin: 14px 0px;
-  }
-  .message textarea{
-      padding: 13px;
-      color: #919191;
-      width: 1120px;
-      margin: 14px 0px;
-      border: 1px solid #e1e1e1;
-  }
-  
-  /* .message-area:placeholder-position{
-      top: 0;
-      left: 0;
-  } */
-  
-  form button{
-      background: #5f6cfa;
-      color: #fff;
-      width: 130px;
-      padding: 13px 40px;
-      cursor: pointer;
-      border: 1px solid #5f6cfa;
-      outline: none;
-      border-radius: 1.5px;
-      font-size: 13px;
-  }
 
+  #highlighted{
+    padding: 4px 25px;
+    position: relative;
+    color: #9c9c9c;
+    /* border-left:8px solid #5f6cfa;
+    line-height: 0.000003; */
+    font-size: 18px;
+}
+#highlighted::after{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    content: '';
+    height: 25px;
+    width: 7px;
+    background: #5f6cfa;
+}
 
   /* Custom separator */
+
+  
+  #sep3 {
+    overflow: hidden;
+    text-align: center;
+    color: #9c9c9caf;
+    font-size: 1.3rem;
+    z-index:20;
+  }
+  
+  #sep3:before,
+  #sep3:after {
+    background-color: #9c9c9c81;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 45%;
+  }
+  
+  #sep3:before {
+    right: 0.5em;
+    margin-left: -50%;
+    margin-bottom:-9px;
+  }
+  
+  #sep3:after {
+    left: 0.5em;
+    margin-right: -50%;
+    margin-bottom:-9px;
+  }
+
+
+
 
   
   #sep2 {
@@ -159,7 +142,7 @@ header {
   
   #sep2:before,
   #sep2:after {
-    background-color: rgba(255, 255, 255, 0.726);;
+    background-color: rgba(255, 255, 255, 0.726);
     content: "";
     display: inline-block;
     height: 1px;
@@ -171,11 +154,12 @@ header {
   #sep2:before {
     right: 0.5em;
     margin-left: -50%;
-    margin-bottom:-9px;
+    margin-bottom:-8px;
   }
   
   #sep2:after {
     left: 0.5em;
     margin-right: -50%;
-    margin-bottom:-9px;
+    margin-bottom:-8px;
   }
+

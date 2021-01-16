@@ -29,13 +29,21 @@ const AboutUsComponent = () => {
             <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque <span style={{color:"#5f6cfa",fontWeight:"600"}} >penatibus</span> et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             </p>
-            <p>
-              <strong className="head">Train</strong> <br /> Eltham train
-              station then 5 minutes walk
+            <p id="highlighted">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
             </p>
-            <div className="line-break"></div>
+            <p>
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+            </p>
+            
+            <Separator type={"sep3"} />
+            <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+            <p>
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+            </p>
           </div>
-          <div className="embedded-map">
+          {/* <div className="embedded-map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9945.683209720313!2d0.054306!3d51.450430000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a973087ea747%3A0xaa0bebdc88e2723f!2sPassey%20Pl%2C%20Eltham%2C%20London%20SE9%205DQ!5e0!3m2!1sen!2suk!4v1610701509229!5m2!1sen!2suk"
               width="100%"
@@ -76,7 +84,7 @@ const AboutUsComponent = () => {
               </div>
               <button type="submit">Submit</button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ const VisitUs = () => {
     <div className="visit-us-container">
       <header
         style={{
-          backgroundImage: `url("assets/img/visit-us.jpg")`,
+          backgroundImage: `linear-gradient(to bottom,  rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)),url("assets/img/visit-us.jpg")`,
         }}
       >
         <div className="text-container">
@@ -61,7 +61,7 @@ const VisitUs = () => {
               </div>
               <div className="message">
                 <label>Message <span>*</span></label>
-                <textarea name="" id="" cols="139" rows="12"></textarea>
+                <textarea name="" id="" cols="121" rows="12"></textarea>
               </div>
               <button type="submit">Submit</button>
             </form>

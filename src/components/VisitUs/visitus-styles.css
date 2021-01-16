@@ -14,21 +14,13 @@ header {
   font-family: 'Open Sans';
 }
 header > * {
-  z-index: 10;
-}
-header::after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(0, 0, 0, .35);
+    z-index: 10;
 }
 
 .text-container{
     margin-top: -90px;
 }
+
 .visitus-heading{
     font-size: 3.2rem;
     font-weight: 450;
@@ -40,24 +32,32 @@ header::after {
 .visit-us-form{
     width: 100%;
     min-height: 100vh;
-    border: 1px solid orangered;
+    border: 1px solid transparent;
     background: #F9F9F9;
     padding: 0px 70px;
+    z-index: 5;
+    position: relative;
 }
 .card-form{
+    position: relative;
     padding:40px;
     background: #fff;
-    border: 1px solid springgreen;
+    border: 1px solid transparent;
     color: #000;
+    margin-top: -45px;
+    margin-bottom: 50px;
+    min-height: 100vh;
+    z-index: 90;
 }
 .form-1{
     text-align: left;
 }
 .form-1 h3{
     font-family: 'Montserrat';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 20px;
     color: #222;
+    margin-top: 5px;
 }
 .form-1 > p{
     font-family: 'Open Sans';
@@ -68,7 +68,8 @@ header::after {
 .form-1 > p .head,
 label span{
     color: #5f6cfa;
-    font-weight: 500;
+    font-weight: 550;
+    font-size: 1.1rem;
 }
 .embedded-map{
     margin: 13px 0px;
@@ -103,8 +104,10 @@ form input{
     padding: 13px;
     border: 1px solid #e1e1e1;
     color: #919191;
+    border-radius: 2px;
 }
-form input:focus{
+form input:focus,
+form textarea:focus{
     outline: 0;
 }
 .name,
@@ -116,4 +119,16 @@ form input:focus{
 .message textarea{
     margin: 14px 0px;
     border: 1px solid #e1e1e1;
+}
+
+form button{
+    background: #5f6cfa;
+    color: #fff;
+    width: 130px;
+    padding: 13px 40px;
+    cursor: pointer;
+    border: 1px solid #5f6cfa;
+    outline: none;
+    border-radius: 1.5px;
+    font-size: 13px;
 }

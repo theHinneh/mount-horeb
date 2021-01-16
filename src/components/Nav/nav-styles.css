@@ -5,7 +5,7 @@
 .left{
     display: flex;
     margin-left: auto;
-    width: 750px;
+    width: 720px;
 }
 
 .nav-container{
@@ -32,6 +32,7 @@
 
 .nav-link{
     color: grey;
+    letter-spacing: -1px;
     font-size: 18px;
     font-weight: 500;
     display: flex;

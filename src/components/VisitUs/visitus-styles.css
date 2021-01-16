@@ -1,7 +1,7 @@
 
 header {
   position: relative;
-  min-height: 350px;
+  min-height: 320px;
   color: #fff;
   background-color: #999;
   display: flex;
@@ -11,22 +11,28 @@ header {
   background-size: cover;
   background-position: right center ;
   background-attachment: fixed;
-  font-family: 'Open Sans';
+  
 }
 header > * {
     z-index: 10;
 }
 
 .text-container{
-    margin-top: -90px;
+    margin-top: -50px;
 }
 
 .visitus-heading{
-    font-size: 3.2rem;
-    font-weight: 450;
+    font-size: 3.1rem;
+    font-weight: 400;
 }
 .visitus-subtext p{
-    font-size: 1.5rem;
+    font-size: 1.54rem;
+    font-family: 'Open Sans';
+    color: rgba(255, 255, 255, 0.794);
+}
+
+.sep-space{
+    /* margin: 30px 0px; */
 }
 
 .visit-us-form{
@@ -117,9 +123,17 @@ form textarea:focus{
     margin: 14px 0px;
 }
 .message textarea{
+    padding: 13px;
+    color: #919191;
+    width: 1120px;
     margin: 14px 0px;
     border: 1px solid #e1e1e1;
 }
+
+/* .message-area:placeholder-position{
+    top: 0;
+    left: 0;
+} */
 
 form button{
     background: #5f6cfa;

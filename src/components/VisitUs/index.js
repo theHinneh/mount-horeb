@@ -1,9 +1,8 @@
 import React,{useEffect} from "react";
 import "./visitus-styles.css";
+import Separator from "../../shared/separator";
 
 const VisitUs = () => {
-
-
 
   return (
     <div className="visit-us-container">
@@ -17,6 +16,9 @@ const VisitUs = () => {
           <div class="visitus-subtext">
             <p>Mount Horeb Victorious Church International – London Branch</p>
           </div>
+          <div className="sep-space">
+            <Separator />
+          </div>
         </div>
       </header>
 
@@ -25,13 +27,13 @@ const VisitUs = () => {
           <div className="form-1">
             <h3>How to get to us</h3>
             <p>
-              <strong className="head">Buses</strong> <br /> 321 from New cross, 321 from
-              Lewisham, 126 from Bromley, 124 from Catford, 160 from Sidcup, 286
-              from Greenwich
+              <strong className="head">Buses</strong> <br /> 321 from New cross,
+              321 from Lewisham, 126 from Bromley, 124 from Catford, 160 from
+              Sidcup, 286 from Greenwich
             </p>
             <p>
-              <strong className="head">Train</strong> <br /> Eltham train station then 5 minutes
-              walk
+              <strong className="head">Train</strong> <br /> Eltham train
+              station then 5 minutes walk
             </p>
             <div className="line-break"></div>
           </div>
@@ -51,20 +53,28 @@ const VisitUs = () => {
             <h3>Send us mail</h3>
             <form>
               <div className="name">
-                <label>Name <span>*</span></label>
+                <label>
+                  Name <span>*</span>
+                </label>
                 <input type="text" />
               </div>
               <div className="email">
-                <label>E-mail <span>*</span></label>
+                <label>
+                  E-mail <span>*</span>
+                </label>
                 <input type="email" />
               </div>
               <div className="subject">
-                <label>Subject <span>*</span></label>
+                <label>
+                  Subject <span>*</span>
+                </label>
                 <input type="text" />
               </div>
               <div className="message">
-                <label>Message <span>*</span></label>
-                <textarea name="" id="" cols="121" rows="12"></textarea>
+                <label>
+                  Message <span>*</span>
+                </label>
+                <textarea name="" id="" cols="129" rows="12"></textarea>
               </div>
               <button type="submit">Submit</button>
             </form>

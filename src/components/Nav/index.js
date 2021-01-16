@@ -28,7 +28,7 @@ const Nav = () => {
                 exact
                 to={link}
                 activeStyle={{
-                  fontWeight: "bold",
+                  color: "#333333",
                 }}
                 className="nav-link"
               >

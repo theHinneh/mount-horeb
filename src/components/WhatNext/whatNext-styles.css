@@ -1,55 +1,61 @@
-.what-next-container{
+.what-next-container {
   min-height: 70vh;
-    padding: 100px 50px;
-    display: flex;
-    flex-direction: column;
-    background: #e8e8e8;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  background: #e8e8e8;
 }
 
-
-.what-next-heading{
-    text-transform:uppercase;
-    font-family: 'Montserrat';
-    line-height: 1.1;
-    color: #222;
-    font-weight: 500;
-    font-size: 2.0rem;
-    /* margin-top: -20px; */
+.what-next-heading {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  line-height: 1.1;
+  color: #222;
+  font-weight: 500;
+  font-size: 2rem;
+  /* margin-top: -20px; */
 }
 
-.what-next-buttons{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.what-next-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.what-next-button-container{
-    width: 28.3%;
-    margin: 20px 25px;
-  }
-  .what-next-button{
-    background: transparent;
-    cursor: pointer;
-    font-size: 21.3px;
-    font-weight: 400;
-    font-family: 'Open Sans';
-    color: #444;
-    width: 325px;
-    /* height: 65px; */
-    border: 2px solid #5f6cfa;
-    padding:15px;
+.what-next-button-container {
+  min-width: 28.3%;
+  margin: 20px 25px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.what-next-button {
+  background: transparent;
+  cursor: pointer;
+  font-size: 21.3px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  color: #444;
+  width: 325px;
+  /* height: 65px; */
+  border: 2px solid #5f6cfa;
+  padding: 15px;
 }
 
 .what-next-button:active,
 .what-next-button:focus,
 .sermon-button:focus,
-  .sermon-button:active{
-      outline: none;
-    }
-    
-  .what-next-button:hover {
-    background: #5f6cfa;
-    /* color: #444; */
-    transition: all 0.4s ease-in-out;
-  }
+.sermon-button:active {
+  outline: none;
+}
+
+.what-next-button:hover {
+  background: #5f6cfa;
+  /* color: #444; */
+  transition: all 0.4s ease-in-out;
+}
+
+.interimImage {
+  margin: 0;
+  padding-top: calc(40px + 26px);
+}
